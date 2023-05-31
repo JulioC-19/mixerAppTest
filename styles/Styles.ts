@@ -73,4 +73,19 @@ export const styles = StyleSheet.create({
     paddingRight: '20%',
     paddingTop: 20,
   },
+  promptContainer: {
+    flexDirection: 'row',
+    paddingTop: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  promptText: {
+    color: colors.black,
+    fontSize: font.small,
+  },
+  onPressPromptText: {
+    color: colors.lightOrange,
+    fontWeight: 'bold',
+    fontSize: font.small,
+  },
 });
