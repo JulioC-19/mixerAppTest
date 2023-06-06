@@ -52,12 +52,12 @@ export const styles = StyleSheet.create({
     width: '80%',
     alignSelf: 'center',
     borderRadius: 20,
-    marginVertical: 10,
+    marginVertical: 5,
   },
   button: {
     backgroundColor: colors.lightOrange,
     borderRadius: 20,
-    paddingVertical: 12,
+    paddingVertical: 10,
     paddingHorizontal: 20,
     alignItems: 'center',
     justifyContent: 'center',
@@ -87,5 +87,20 @@ export const styles = StyleSheet.create({
     color: colors.lightOrange,
     fontWeight: 'bold',
     fontSize: font.small,
+  },
+  logo: {
+    width: 150,
+    height: 150,
+  },
+  logoContainer: {
+    alignItems: 'center',
+  },
+  logoTitle: {
+    marginTop: 10,
+    fontSize: font.medium,
+    fontWeight: 'bold',
+  },
+  loginForm: {
+    padding: '10%',
   },
 });
