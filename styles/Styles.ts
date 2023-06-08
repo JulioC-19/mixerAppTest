@@ -49,7 +49,7 @@ export const styles = StyleSheet.create({
   inputContainer: {
     justifyContent: 'center',
     alignItems: 'center',
-    width: '80%',
+    width: '100%',
     alignSelf: 'center',
     borderRadius: 20,
     marginVertical: 5,
@@ -91,6 +91,10 @@ export const styles = StyleSheet.create({
   logo: {
     width: 150,
     height: 150,
+  },
+  smallLogo: {
+    width: 100,
+    height: 100,
   },
   logoContainer: {
     alignItems: 'center',

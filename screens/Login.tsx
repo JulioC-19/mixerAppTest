@@ -4,6 +4,7 @@ import { CustomTextInput } from '../components/CustomTextInput';
 import { CustomButton } from '../components/CustomButton';
 import { Prompt } from '../components/Prompt';
 import { styles } from '../styles/Styles';
+import { NavigationProps } from '../navigation/RootStackParam';
 
 function HelloConsole() {
   console.log('Hello Console');
@@ -21,7 +22,7 @@ const LoginLogo = () => {
   );
 };
 
-export const Login = () => {
+export const Login = ({ navigation }: NavigationProps) => {
   const promptMessage = 'Not registered? ';
 
   return (
@@ -39,7 +40,7 @@ export const Login = () => {
       <Prompt
         text={promptMessage}
         onPressText={'Sign up'}
-        onPress={HelloConsole}
+        onPress={() => navigation.navigate('Signup')}
       />
     </SafeAreaView>
   );
